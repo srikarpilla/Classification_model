@@ -1,0 +1,29 @@
+{
+  "model_name": "efficientnet_b0",
+  "model_path": "models/material_classifier_efficientnet_b0_streamlit.onnx",
+  "input_size": [
+    224,
+    224
+  ],
+  "mean": [
+    0.485,
+    0.456,
+    0.406
+  ],
+  "std": [
+    0.229,
+    0.224,
+    0.225
+  ],
+  "class_names": [
+    "cardboard",
+    "glass",
+    "metal",
+    "paper",
+    "plastic",
+    "trash"
+  ],
+  "version": "2.0",
+  "framework": "ONNX",
+  "optimized_for": "Streamlit"
+}
